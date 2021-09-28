@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    height: 800px;
+    margin: 0;
+    
+}
+.container{
+width: 1400px;
+margin-right: 170px;
+margin-left: 170px;}
+
+     /* start header */
+     .header .slider{
+         background:linear-gradient(#c0b8de,#fff);
+      -webkit-background-size: cover;/*css3*/
+      -moz-background-size: cover;
+        -o-background-size:cover ;
+        background-size: 50%;
+        height: 700px;
+        border: solid orange;
+    }
+      
+        .header .slider .intro {
+            padding-top: 200px;
+            height: 450px;
+            color: rgb(255, 255, 255) ;
+            border: solid red;
+        
+        }
+.one-more{
+    border: solid blue;
+    width: 500px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+            .img1{
+                width: 500px;
+                border: #ffe101 solid;        
+                float:right;
+             margin-right: 50px;
+            }
+.header .slider .intro h2{
+    margin: 0  ;   
+  font-size: 50px;
+  width: 600px;
+  font-family:'Quicksand',sans-serif;
+ padding: 5px 0;}
+
+.header .slider .intro button{
+background: #ffe101;
+margin-top: 30px;
+color: #fff;
+font-size: 20px;
+border: 2px solid #ffe101;
+font-weight: bold;
+padding: 10px 30px;
+}
+
+
+.header .navbar{
+        background-color: #fff;
+        overflow: hidden;
+        text-transform: capitalize;
+        font-size: 200%;
+    }
+
+ .header .navbar .logo{
+     float: left;  
+    text-transform: uppercase; }
+
+.header .navbar h2 span{
+    color: #0c5317;}
+
+.header .navbar ul{
+list-style: none;
+padding-left: 0%;
+overflow: hidden;
+float: right;}
+
+.header .navbar ul li{
+float: left;
+padding: 10px;
+     }
+     .header .navbar ul li a{
+         color: #0c1753;
+         text-decoration: none;
+         font-family:'Quicksand',sans-serif;
+         font-weight: 1000;
+         
+     }
+     
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+
+    color: #9375ff; 
+
+    }
+     /*end header*/
+    
+
+    /* start card */
+    .card{
+        width: 330px;
+        height: 330px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 150px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+         text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            background-color: #fff;
+        
+          
+        }
+
+    .card:hover{
+        transform: translateY(-20px);
+        
+    }
+    
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 40px;
+  
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    
+    background:linear-gradient(#c0b8de,#fff);
+    width: 100vw;
+    margin: auto;
+    padding: auto;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+ 
+  .imgcard1{
+
+      position: absolute;
+      margin-left: -70px; 
+      align-content: center;
+      margin-top: 30px;
+      width: 130px !important;
+      height: 130px;
+  }
+  .card1{
+    background-color: #ffe101;
+    border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  .card2{
+    background-color: #ffe101;
+    border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.card3{
+    background-color: #ffe101;
+    border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+h3{
+    font-family:'Quicksand',sans-serif;
+    font-size: 200%;
+    font-weight: 900;
+}
+/* end card */
+
+
+    /*start Contact Me*/   
+    .contact{
+        background-color: #0c1753;
+        overflow: hidden;
+        padding-top: 58px;
+        padding-bottom: 70px;
+            }
+        
+            .contact .info{
+                width: 50%;
+                margin-right: 5%;
+                float: left;}
+        
+        .contact h2 {
+        color: #FFF;
+        margin-left:40px;}
+        
+        .contact P{
+          color: #6a6e71; 
+          margin-left: 40px; 
+          line-height: 1.7;
+        }
+        .contact p strong{ 
+            color: #d1d6da;}
+        
+        .contact .form{
+        width: 45%;
+        float: left;
+        }
+        .contact .form label {
+          display: block;  
+          color: #fff;
+          margin: 10px 0;
+        }
+        .contact .form input[type="text"]{
+            background-color: #fff;
+            color: #0c1753;
+            padding: 10px;
+            border: 0px;
+            width: 80%;
+            margin-bottom: 10px;
+        }
+        
+        .contact .form textarea {
+            background-color: #fff;
+            color: #0c1753;
+            padding: 10px;
+            border: 0px;
+            width: 80%;
+            margin-bottom: 10px;
+            height: 300px;
+        }
+        .contact .form input[type="submit"]{
+            background-color: #ffe101;
+            color: #0c1753;
+            padding: 10px 20px;
+            width: 85%;
+            border: 0px;
+        }
+        /*end Contact Me*/
+
+    
+    /*start Footer*/
+    .footer{
+      background:linear-gradient(#fff,#9375ff);
+        color: #8a8a8a;
+        font-size: 14px;
+        padding: 60px 0 20px;
+         
+    }
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+    color: rgb(4, 156, 105);
+} 
+
+.footer-col-1 , .footer-col-2 , .footer-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+    }
+    
+    
+.footer-col-1{
+    flex-basis: 15%;
+    border: tomato solid;
+}
+
+.footer-col-2{
+    flex-basis: 15%;
+    text-align: center;
+    border: teal solid;
+ }
+
+.footer-col-3 , .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+        border: teal solid;
+
+}
+ul{
+    list-style-type: none;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li img{
+    width:40%;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5; 
+    height:1px ;
+    margin: 20px 0;
+}
+
+.Copyright{
+    color: white;
+    text-align: center;
+} 
+.row-footer{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: orange solid;
+}
+
+     /*start Footer*/
+ 
